@@ -62,7 +62,7 @@ http://zt.tgym058.top
 [rewrite_local]
 https?:\/\/.*\.*\.com\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
 https?:\/\/.*\.*\.cn\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
-http?:\/\/.*\.*\.top\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
+https?:\/\/.*\.*\.top\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
 
 const $ = new Env("GOGOGOGO");
 let url = $request.url, headers = $request.headers;
