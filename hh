@@ -56,12 +56,13 @@ pilipili(二次元) https://747.jkhpmy.com
 91AV https://ca7.rahzss.com 
 快手 https://eb81.nnjzpw.com 
 汤头条 https://a3ou.cxuvtk.com
+http://zt.tgym058.top
 *****************
 
 [rewrite_local]
 https?:\/\/.*\.*\.com\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
 https?:\/\/.*\.*\.cn\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
-https?:\/\/.*\.*\.top\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
+http?:\/\/.*\.*\.top\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
 
 const $ = new Env("GOGOGOGO");
 let url = $request.url, headers = $request.headers;
